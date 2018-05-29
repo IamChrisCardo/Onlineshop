@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="HomeStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <title>ICR Customer checkout</title>
+    </head>
+    <body>
+        <div class="content">
+            <header class="header">
+                <a href="home.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px" class="logo"></a>
+                <div class="reg-div">
+                    <a href="checkoutPage.php" class="search-link">Checkout</a>&nbsp; &nbsp; &nbsp; &nbsp;<a href="home.php" class="search-link">Log Out</a><br>
+                    <input type="text" name="search-box" placeholder="Search here" class="search-box">
+                    <button type="button" class="search-btns">
+                        >
+                    </button>
+                </div>
+            </header>
+            <div class="topnav" id="myTopnav">
+                <a href="home.html" style="width: 25%">Home</a>
+                <a href="Headwear.html" style="width: 25%">Headwear</a>
+                <a href="Socks&Shoes.php" style="width: 25%">Shoes</a>
+                <a href="Watches.php" style="width: 25%">Watches</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            
+            
+            <footer class="footer">
+                <div class="footer-text">
+                    <p style="font-size: 16px">© 2017 ICR.co.za  |  All Rights Reserved  |  Privacy Policy </p>
+                    <p style="font-size: 14px">Thank you for visiting SA's leading MEN's fashion boutique. We're based in Cape Town, but that doesn't stop us from delivering internationally.</p>
+                    <a href="#" class="info"><p>About Us / Contact Us</p></a>
+                </div>
+                <a href="home.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px; float: right" class="logo"></a>
+            </footer>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+</script>
+    </body>
+</html>
