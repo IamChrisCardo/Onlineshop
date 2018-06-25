@@ -11,9 +11,9 @@
     <body>
         <div class="content">
             <header class="header">
-                <a href="home.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px" class="logo"></a>
+                <a href="index.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px" class="logo"></a>
             <div class="reg-div">
-                <a href="registration.html" class="search-link">Register</a> or <a href="login.html" class="search-link">Log in</a><br>
+                <a href="registration.php" class="search-link">Register</a> or <a href="login.php" class="search-link">Log in</a><br>
                 <input type="text" name="search-box" placeholder="Search here" class="search-box">
                 <button type="button" class="search-btn">
                     <>
@@ -21,11 +21,11 @@
             </div>
             </header>
             <div class="topnav" id="myTopnav">
-                <a href="home.html" style="width: 20%">Home</a>
-                <a href="Headwear.html" style="width: 20%">Headwear</a>
-                <a href="Shoes.html" style="width: 20%">Shoes</a>
-                <a href="Watches.html" style="width: 20%">Watches</a>
-                <a href="AboutUs.html" style="width: 20%">About Us</a>
+                <a href="home.php" style="width: 20%">Home</a>
+                <a href="Headwear.php" style="width: 20%">Headwear</a>
+                <a href="Shoes.php" style="width: 20%">Shoes</a>
+                <a href="Watches.php" style="width: 20%">Watches</a>
+                <a href="AboutUs.php" style="width: 20%">About Us</a>
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
             <h4 style="text-align: center; font-family: 'Lobster', cursive; font-size: 28px">The Home of Mens' Fashion Accessories</h4>
@@ -119,16 +119,16 @@
                 	© 2018 ICR.co.za  |  All Rights Reserved  |  Privacy Policy 
             	</p>
                 <p style="font-size: 14px">
-                	Thank you for visiting SA's leading MEN's fashion boutique. We're based in Cape Town, but that doesn't stop us from delivering internationally.
+                	Thank you for visiting SA's leading MEN's fashion boutique. We're based in Cape Town, but that doesn't stop us from delivering nationally.
                 </p>
-                <a href="#" class="info">
+                <a href="AboutUs.php" class="info">
                 	<p>About Us / Contact Us</p>
                 </a>
                 <p style="font-size: 12px;">
                 	Created By © 2018 Christiano Saayman
             	</p>
             </div>
-            <a href="home.html">
+            <a href="index.php">
             	<img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px; float: right" class="logo">
             </a>
         </footer>

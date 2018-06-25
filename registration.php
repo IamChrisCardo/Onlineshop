@@ -11,12 +11,12 @@
     <body>
         <div class="content">
             <header class="header">
-                <a href="home.html"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px" class="logo"></a>
+                <a href="index.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px" class="logo"></a>
             <div class="reg-div">
-                <a href="registration.html" class="search-link">Register</a> or <a href="login.html" class="search-link">Log in</a><br>
+                <a href="registration.php" class="search-link">Register</a> or <a href="login.php" class="search-link">Log in</a><br>
                 <input type="text" name="search-box" placeholder="Search here" class="search-box">
-                <button type="button" class="search-btns">
-                    >
+                <button type="button" class="search-btn">
+                    <>
                 </button>
             </div>
             </header>
@@ -36,7 +36,7 @@
                         if ($result == TRUE) {
                             echo "Congratulations, your details have been saved"."<br/>";
                         ?>
-                            <a href="login.php">Login Here</a>
+                            <a href="login.php" class="search-link">Login Here</a>
                         <?php
                         }
                         else {
@@ -50,10 +50,15 @@
                             <input type="text" name="username" placeholder="Username" required class="reg-input"><br>
                             <input type="email" name="email" placeholder="Email" required class="reg-input"><br>
                             <input type="password" name="password" placeholder="Password" required class="reg-input" id="pass"><br>
-                            <input type="password" name="confirmpassword" placeholder="Confirm Password" required class="reg-input" id="conpass">
-                            <br>
-                            <br>
-                            <input type="submit" name="submit" value="Submit" class="reg-submit" id="submit">
+                            <input type="password" name="confirmpassword" placeholder="Confirm Password" required class="reg-input" id="conpass"><br/>
+                            <input type="checkbox" checked="checked" name="remember" class="remember-me"> Remember me
+                            
+                            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                            <div class="clearfix">
+                              <button type="submit" class="btn-lrg signup-btn">Sign Up</button>
+                              <button type="button" class="btn-lrg cancel-btn">Cancel</button>
+                            </div>
                         </form>
                 <?php
                     }
@@ -61,9 +66,14 @@
             </div>
             <footer class="footer">
                 <div class="footer-text">
-                <p style="font-size: 16px">© 2017 ICR.co.za  |  All Rights Reserved  |  Privacy Policy </p>
+                    <p style="font-size: 16px">
+                        © 2017 ICR.co.za  |  All Rights Reserved  |  Privacy Policy 
+                    </p>
+                    <p style="font-size: 12px;">
+                        Created By © 2018 Christiano Saayman
+                    </p>
                 </div>
-                <a href="home.html"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px; float: right" class="logo"></a>
+                <a href="index.php"><img src="img/ICR_logo.png" alt="logo" style="width: 160px; height: 120px; float: right" class="logo"></a>
             </footer>
         </div>
         
