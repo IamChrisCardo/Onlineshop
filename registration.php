@@ -22,6 +22,7 @@
             </header>
             <h3 style="text-align: center; font-family: 'Lobster', cursive; font-size: 24px">Register below</h3>
             <div class="reg-content">
+                
                 <?php
                     if (isset($_POST['submit'])) {
                         $username = $_POST['username'];
