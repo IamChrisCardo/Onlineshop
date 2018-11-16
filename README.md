@@ -1,1 +1,1 @@
-### <a href="index.html">Onlineshop</a>
+### <a href="/index.php">Onlineshop</a>
