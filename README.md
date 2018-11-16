@@ -1,1 +1,1 @@
-### <a href="https://iamchriscardo.github.io/Onlineshop/home.php">Onlineshop</a>
+### <a href="https://iamchriscardo.github.io/Onlineshop/index.php">Onlineshop</a>
